@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #111729;
+  background-color: #f2f5f9;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 410px;
+  height: 515px;
+  border-radius: 10px;
+}
+
+.image-card {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.white-overlay {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 25px 0 25px;
+  color: #111729;
+  line-height: 35px;
+}
+
+.info {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 15px 25px 15px 25px;
+  color: #4a5567;
+  line-height: 25px;
+}
+
+.decorative-line {
+  border: none;
+  height: 1px;
+  background-color: #f2f5f9;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-left: 25px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f5f9;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.profile-image img {
+  width: 40px;
+  border-radius: 100px;
+}
+
+h2 {
+  font-family: "Lato", serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111729;
+}
+
+.profile-info {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4a5567;
+}
+
+@media (max-width: 640px) {
+  /* .card {
+    background-color: #ffffff;
+    width: 410px;
+    height: 510px;
+  } */
+}
